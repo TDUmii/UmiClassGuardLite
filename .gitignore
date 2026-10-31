@@ -1,0 +1,33 @@
+# Build outputs and local runtime
+**/bin/
+**/obj/
+dist/
+.vs/
+*.user
+*.suo
+*.cache
+
+# Sensitive/local diagnostics - NEVER commit
+**/Diagnostic-*.txt
+**/diagnostics.jsonl
+**/activity.jsonl
+**/config.json
+**/*.log
+*.db
+*.sqlite
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.key
+secrets.json
+
+# Personal local reports
+QA_REPORT.md
+ERROR_CODES.md
+
+# Editor and temporary files
+.vscode/
+*.tmp
+*.bak
